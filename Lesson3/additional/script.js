@@ -54,7 +54,7 @@ console.log('        ');
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
 let counter = 0;
 while (counter < arr.length) {
-    if (!(counter % 2)) {
+    if (!(arr[counter] % 2)) {
         console.log(arr[counter]);
     }
     counter++;
@@ -63,7 +63,7 @@ console.log('        ');
 
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
 for (let j = 0; j < arr.length; j++) {
-    if (!(j % 2)) {
+    if (!(arr[j] % 2)) {
         console.log(arr[j]);
     }
 }
