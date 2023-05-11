@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson4/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4/additional/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson4/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -38,6 +42,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -79,6 +84,14 @@
       <workItem from="1683453818975" duration="8137000" />
       <workItem from="1683529886923" duration="14903000" />
       <workItem from="1683616215607" duration="2902000" />
+      <workItem from="1683623656634" duration="1580000" />
+      <workItem from="1683634061277" duration="3723000" />
+      <workItem from="1683646046290" duration="2604000" />
+      <workItem from="1683666040297" duration="2510000" />
+      <workItem from="1683669109104" duration="215000" />
+      <workItem from="1683710257214" duration="9991000" />
+      <workItem from="1683726263768" duration="334000" />
+      <workItem from="1683785673148" duration="5171000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -115,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683575523380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js">
+      <created>1683623835336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683623835336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
