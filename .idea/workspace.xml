@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js">
-      <change afterPath="$PROJECT_DIR$/Lesson8/additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8/additional/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8/additional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8/additional/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,7 @@
       <workItem from="1684615813077" duration="1279000" />
       <workItem from="1684759443845" duration="683000" />
       <workItem from="1684784404118" duration="4959000" />
-      <workItem from="1684920077307" duration="17501000" />
+      <workItem from="1684920077307" duration="18690000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684309772384</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js">
+      <created>1685010923632</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685010923632</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

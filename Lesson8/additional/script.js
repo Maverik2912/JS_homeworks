@@ -72,12 +72,20 @@ class Tag {
     }
 }
 
+class Attribute {
+
+    constructor(titleOfAttr, actionOfAttr) {
+        this.titleOfAttr = titleOfAttr;
+        this.actionOfAttr = actionOfAttr;
+    }
+}
+
 // Таким чином описати теги
 // -a
 const tagA = new Tag('a', 'Тег <a> визначає гіперпосилання, яке використовується для переходу з однієї сторінки на іншу',
-    {titleOfAttr: 'href', actionOfAttr: 'Визначає URL сторінки, на яку йде посилання'},
-        {titleOfAttr: 'rel', actionOfAttr: 'Визначає зв’язок між поточним документом і пов’язаним документом'},
-        {titleOfAttr: 'target', actionOfAttr: 'Вказує, де відкрити пов’язаний документ'}
+    new Attribute('href', 'Визначає URL сторінки, на яку йде посилання'),
+    new Attribute('rel', 'Визначає зв’язок між поточним документом і пов’язаним документом'),
+    new Attribute('target', 'Вказує, де відкрити пов’язаний документ')
     );
 
 console.log(tagA)
@@ -85,64 +93,62 @@ console.log(tagA)
 
 // -div
 const tagDiv = new Tag('div', 'Тег <div> визначає межу або розділ у документі HTML.',
-    {titleOfAttr: 'class', actionOfAttr: 'Задає одне або кілька імен класів для елемента (посилається на клас в таблиці стилів)'},
-        {titleOfAttr: 'title', actionOfAttr: 'Визначає додаткові відомості про елемент' },
-    {titleOfAttr: 'style', actionOfAttr: 'Визначає вбудований стиль CSS для елемента'}
+    new Attribute('class', 'Задає одне або кілька імен класів для елемента (посилається на клас в таблиці стилів'),
+    new Attribute('title', 'Визначає додаткові відомості про елемент'),
+    new Attribute('style', 'Визначає вбудований стиль CSS для елемента')
     );
-
 console.log(tagDiv);
 
 
 // -h1-h6
 const tagH = new Tag('h1-h6', 'Теги від <h1> до <h6> використовуються для визначення заголовків HTML.',
-    {actionOffAttr: 'id', actionOfAttr: 'Визначає унікальний ідентифікатор елемента'},
-    {actionOffAttr: 'hidden', actionOfAttr: 'Визначає, що елемент ще не релевантний або більше не має значення'},
+    new Attribute('id', 'Визначає унікальний ідентифікатор елемента'),
+    new Attribute('hidden', 'Визначає, що елемент ще не релевантний або більше не має значенняа')
     );
 console.log(tagH)
 
 
 // -span
 const tagSpan = new Tag('span', 'Визначає розділ (рядковий) в документі',
-    {titleOfAttr: 'class', actionOfAttr: 'Задає одне або кілька імен класів для елемента (посилається на клас в таблиці стилів)'},
-    {actionOffAttr: 'id', actionOfAttr: 'Визначає унікальний ідентифікатор елемента'},
+    new Attribute('class', 'Визначає унікальний ідентифікатор елемента'),
+    new Attribute('id', 'Визначає унікальний ідентифікатор елемента')
     );
 console.log(tagSpan);
 
 
 // -input
 const tagInput = new Tag('input', 'Тег <input> визначає поле введення, куди користувач може вводити дані.',
-    {titleOfAttr: 'checked', actionOfAttr: 'Вказує, що елемент <input> має бути попередньо вибрано під час ' +
-            'завантаження сторінки (для type="checkbox" або type="radio")'},
-    {titleOfAttr: 'disabled', actionOfAttr: 'Вказує, що елемент <input> має бути вимкнено'},
-    {titleOfAttr: 'maxlength', actionOfAttr: 'Визначає максимальну кількість символів, дозволених у елементі <input>'}
+    new Attribute('checked', 'Визначає унікальний ідентифікатор елемента'),
+    new Attribute('disabled', 'Вказує, що елемент <input> має бути попередньо вибрано під час ' +
+        'завантаження сторінки (для type="checkbox" або type="radio")'),
+    new Attribute('maxlength', 'Визначає максимальну кількість символів, дозволених у елементі <input>')
 );
 console.log(tagInput);
 
 
 // -form
 const tagForm = new Tag('form' , 'Тег <form> використовується для створення HTML-форми для введення користувачем.',
-    {titleOfAttr: 'action', actionOfAttr: 'Визначає, куди надсилати дані форми під час надсилання форми'},
-    {titleOfAttr: 'method', actionOfAttr: 'Визначає метод HTTP для надсилання даних форми'},
-    {titleOfAttr: 'name', actionOfAttr: 'Визначає назву форми'}
+    new Attribute('action', 'Визначає, куди надсилати дані форми під час надсилання формиа'),
+    new Attribute('method', 'Визначає метод HTTP для надсилання даних форми'),
+    new Attribute('name', 'Визначає назву форми')
     );
 console.log(tagForm);
 
 // -option
 const tagOption = new Tag('option', 'Тег <option> визначає параметр у списку вибору.',
-    {titleOfAttr: 'disabled', actionOfAttr: 'Визначає, що параметр має бути вимкнено'},
-    {titleOfAttr: 'label', actionOfAttr: 'Визначає коротшу мітку для опції'},
-    {titleOfAttr: 'selected', actionOfAttr: 'Визначає, що під час завантаження сторінки потрібно попередньо вибрати параметр'}
+    new Attribute('disabled', 'Визначає, що параметр має бути вимкнено'),
+    new Attribute('label', 'Визначає коротшу мітку для опції'),
+    new Attribute('selected', 'Визначає, що під час завантаження сторінки потрібно попередньо вибрати параметр')
     );
 console.log(tagOption);
 
 // -select
 const tagSelect = new Tag('select', 'Визначає обраний список',
-    {titleOfAttr: 'disabled', actionOfAttr: 'Визначає, що параметр має бути вимкнено'},
-    {titleOfAttr: 'required', actionOfAttr: 'Этот логический атрибут указывает что обязательно должна быть выбрана ' +
-            'опция и которая содержит не пустую строку.'},
-    {titleOfAttr: 'form', actionOfAttr: 'Этот атрибут указывает к какой конкретно форме относится элемент <select> . ' +
-            'Если атрибут указан, его значением должно быть ID формы в том же документе. Это позволяет размещать элементы ' +
-            '<select> где угодно в документе, а не только как потомки форм.'}
-
+    new Attribute('disabled', 'Визначає, що параметр має бути вимкнено'),
+    new Attribute('required', 'Этот логический атрибут указывает что обязательно должна быть выбрана ' +
+        'опция и которая содержит не пустую строку.'),
+    new Attribute('form', 'Этот атрибут указывает к какой конкретно форме относится элемент <select> . ' +
+        'Если атрибут указан, его значением должно быть ID формы в том же документе. Это позволяет размещать элементы ' +
+        '<select> где угодно в документе, а не только как потомки форм.')
     );
 console.log(tagSelect);
