@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js">
-      <change afterPath="$PROJECT_DIR$/Lesson6/additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6/additional/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8/additional/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson8/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -43,7 +43,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -98,7 +98,15 @@
       <workItem from="1684174941770" duration="5165000" />
       <workItem from="1684226706352" duration="5059000" />
       <workItem from="1684239438793" duration="7129000" />
-      <workItem from="1684304234757" duration="5472000" />
+      <workItem from="1684304234757" duration="5873000" />
+      <workItem from="1684419396947" duration="12746000" />
+      <workItem from="1684435968429" duration="392000" />
+      <workItem from="1684527883483" duration="7780000" />
+      <workItem from="1684601695939" duration="8208000" />
+      <workItem from="1684615813077" duration="1279000" />
+      <workItem from="1684759443845" duration="683000" />
+      <workItem from="1684784404118" duration="4959000" />
+      <workItem from="1684920077307" duration="17501000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -156,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684179987773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js">
+      <created>1684309772384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684309772384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,5 +193,9 @@
     <MESSAGE value="Add Lesson 2&#10;- index.html&#10;- script.js" />
     <MESSAGE value="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
