@@ -152,3 +152,91 @@ const tagSelect = new Tag('select', 'Визначає обраний списо�
         '<select> где угодно в документе, а не только как потомки форм.')
     );
 console.log(tagSelect);
+
+
+// Реалізувати можливість транзакцій
+class userAccount {
+    constructor(name) {
+        this.name = name;
+        this.cards = [];
+    }
+
+    addCard() {
+        let i = this.cards.length + 1;
+        if(i > 3){
+            console.error('Не можна мати більше 3 карток');
+        } else{
+            let newCard = userCard(i);
+            this.cards.push(newCard);
+            return newCard;
+        }
+    }
+
+    getCardByKey(key) {
+        return this.cards.find(card => card.getCardInfo().key === key);
+    }
+}
+
+function userCard(key) {
+
+    const card = {
+        balance: 100,
+        transactionLimit: 100,
+        transactionHistory: [],
+        key: key
+    }
+
+    function makeHistoryNote(operationType, credits){
+        const history = {operationType, credits, operationTime: new Date().toLocaleString()}
+        card.transactionHistory.push(history);
+    }
+    return {
+        getCardInfo() {
+            return card;
+        },
+
+        putCredits(credits) {
+            card.balance += credits;
+            makeHistoryNote('Received credits', credits)
+        },
+
+        takeCredits(credits) {
+            if(credits > card.transactionLimit) {
+                console.error('Ви перевищили ліміт транзакцій');
+            } else if(credits > card.balance) {
+                console.error('Недостатньо коштів');
+            } else {
+                card.balance -= credits;
+                makeHistoryNote('Withdrawal of credits', credits)
+            }
+        },
+
+        setTransactionsLimit(limit) {
+            card.transactionLimit = limit;
+            makeHistoryNote('Transaction limit change', limit);
+        },
+
+        transferCredits(credits, recipient) {
+            this.takeCredits(credits);
+            recipient.putCredits(credits * 0.95);
+        }
+    }
+}
+
+const user1 = new userAccount('Bob');
+user1.addCard();
+user1.addCard();
+const card1 = user1.getCardByKey(1);
+const card2 = user1.getCardByKey(2);
+
+card1.putCredits(500);
+card1.setTransactionsLimit(700);
+card1.transferCredits(300, card2);
+card1.putCredits(100);
+card1.putCredits(200);
+card1.takeCredits(400);
+card2.takeCredits(50);
+
+
+console.log(card1.getCardInfo());
+console.log(card2.getCardInfo())
