@@ -211,6 +211,7 @@ for (const course of coursesArray) {
 }
 
 // Additional mixkit.co
+// Створити масив об'єктів, взявши всі назви, авторів і посилання на аудіо файли з сайту, вивести в консоль
 
 const titles = document.querySelectorAll('.item-grid-card__title');
 const authors = document.querySelectorAll('.item-grid-music-preview__author');
