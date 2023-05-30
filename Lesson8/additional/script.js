@@ -217,8 +217,8 @@ function userCard(key) {
         },
 
         transferCredits(credits, recipient) {
-            this.takeCredits(credits);
-            recipient.putCredits(credits * 0.95);
+            this.takeCredits(credits * 1.05);
+            recipient.putCredits(credits);
         }
     }
 }
@@ -226,17 +226,13 @@ function userCard(key) {
 const user1 = new userAccount('Bob');
 user1.addCard();
 user1.addCard();
+
 const card1 = user1.getCardByKey(1);
 const card2 = user1.getCardByKey(2);
 
 card1.putCredits(500);
-card1.setTransactionsLimit(700);
-card1.transferCredits(300, card2);
-card1.putCredits(100);
-card1.putCredits(200);
-card1.takeCredits(400);
-card2.takeCredits(50);
-
+card1.setTransactionsLimit(1000);
+card1.transferCredits(400, card2);
 
 console.log(card1.getCardInfo());
-console.log(card2.getCardInfo())
+console.log(card2.getCardInfo());
