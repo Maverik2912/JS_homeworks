@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson9/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson8/additional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8/additional/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +107,7 @@
       <workItem from="1685123882653" duration="161000" />
       <workItem from="1685134297486" duration="3080000" />
       <workItem from="1685364601879" duration="286000" />
-      <workItem from="1685386146763" duration="4435000" />
+      <workItem from="1685386146763" duration="7693000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -196,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685134392118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1685429699053</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685429699053</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1685429788603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685429788603</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +228,8 @@
     <MESSAGE value="Add Lesson 1&#10;- index.html&#10;- script.js" />
     <MESSAGE value="Add Lesson 2&#10;- index.html&#10;- script.js" />
     <MESSAGE value="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js" />
+    <MESSAGE value="Add Lesson 9: &#10;- index.html&#10;- script.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 9: &#10;- index.html&#10;- script.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
