@@ -102,7 +102,7 @@ for (const simpson of simpsons) {
     simpsonContainer.innerHTML = `
         <h1 class="title">${simpson.name} ${simpson.surname}, ${simpson.age} років</h1>
         <p class="description">${simpson.info}</p>
-        <img src="${simpson.photo}" alt="Simpson's photo">
+        <img src="${simpson.photo}" alt="${simpson.name}">
     `
     document.body.appendChild(simpsonContainer);
 }
@@ -230,7 +230,6 @@ for (let i = 0; i < titles.length; i++) {
 }
 
 console.log(records);
-
 
 
 
