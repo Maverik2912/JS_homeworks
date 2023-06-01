@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+    <style>
+        .mb{
+            margin-bottom: 20px;
+        }
+        .hideElement {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin-top: 40px;
+        }
+        .hideButton{
+            display: block;
+            margin-top: 30px;
+        }
+        .form1, .form2, .form3{
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .table{
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        .table td {
+            padding: 20px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<h2>FORM 1</h2>
+<form class="form1" name="form1">
+    <div class="mb"><input type="text" name="name" placeholder="name"></div>
+    <div class="mb"><input type="text" name="surname" placeholder="surname"></div>
+    <div class="mb"><input type="number" name="age" placeholder="age"></div>
+    <div class="mb">
+        <button>send</button>
+    </div>
+</form>
+
+<h2>FORM 2</h2>
+<form class="form2" name="form2">
+    <div class="mb"><input type="number" name="age" placeholder="Your age"></div>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
+
+<h2>FORM 3</h2>
+<form class="form3" name="form3">
+    <div class="mb"><input type="number" name="tr" placeholder="Amount of tr"></div>
+    <div class="mb"><input type="number" name="td" placeholder="Amount of td"></div>
+    <div class="mb"><input type="text" name="value" placeholder="Value"></div>
+    <div>
+        <button>Create table</button>
+    </div>
+</form>
+
+<h2>Зміна ціни при перезавантаженні сторінки (інтервал має бути > 10cек)</h2>
+<p class="price">100грн</p>
+<hr>
+
+<h2>Лічільник перезавантажень сторінки</h2>
+<div class="finite">0</div>
+<hr>
+
+<h2>Інші завдання (умови у js файлі)</h2>
+<script src="script.js"></script>
+</body>
+</html>

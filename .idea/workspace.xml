@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson10/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/additional/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/session.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="U:\Микита\Okten\JS\JS\Lesson10\additional" />
       <recent name="U:\Микита\Okten\JS\JS" />
       <recent name="U:\Микита\Okten\JS\JS\Lesson1" />
     </key>
@@ -109,7 +115,8 @@
       <workItem from="1685134297486" duration="3080000" />
       <workItem from="1685364601879" duration="286000" />
       <workItem from="1685386146763" duration="28887000" />
-      <workItem from="1685513320971" duration="1548000" />
+      <workItem from="1685513320971" duration="4270000" />
+      <workItem from="1685598550600" duration="17670000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -216,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685432936044</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1685514951374</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685514951374</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
