@@ -158,28 +158,18 @@ form3.addEventListener('submit', function(e) {
 //     При перезавантаженні, яке відбулось раніше ніж минуло 10 секунд - нічого не відбувається
 
 const priceElement = document.body.getElementsByClassName('price')[0];
-priceElement.innerText = localStorage.getItem('price') || priceElement.innerText;
 
-const arrTimeOfReloadPage = JSON.parse(localStorage.getItem('reloadPage')) || [];
+let price = localStorage.getItem('price') || 100;
+let time = localStorage.getItem('time');
 
 const now = new Date().getTime();
-window.addEventListener('beforeunload', function() {
 
-    arrTimeOfReloadPage.push(new Date().getTime());
-    localStorage.setItem('reloadPage', JSON.stringify(arrTimeOfReloadPage));
+const block = document.getElementsByClassName('price-block')[0];
 
-    let interval;
+if(time && now - time > 10e3){
+    price = +price + 10;
+    localStorage.setItem('price', price.toString());
+}
 
-    if(arrTimeOfReloadPage.length === 1) {
-        interval = Math.floor((arrTimeOfReloadPage[arrTimeOfReloadPage.length - 1] - now) / 1000);
-    } else if(arrTimeOfReloadPage.length > 1){
-        interval = Math.floor((arrTimeOfReloadPage[arrTimeOfReloadPage.length -1] - arrTimeOfReloadPage[arrTimeOfReloadPage.length -2]) / 1000)
-    }
-
-    if(interval && interval >= 10) {
-        let price = parseInt(priceElement.innerText);
-        price += 10;
-        localStorage.setItem('price', `${price.toString()}грн`);
-    }
-
-});
+priceElement.innerText = price + 'grn';
+localStorage.setItem('time', now.toString());

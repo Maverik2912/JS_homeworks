@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson10/additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/additional/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/additional2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/additional2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/fakeShop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/scriptShop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/additional/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson12/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson10/additional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/additional/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
     </list>
@@ -44,7 +51,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -56,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="U:\Микита\Okten\JS\JS\Lesson12\additional\fakeShop" />
       <recent name="U:\Микита\Okten\JS\JS\Lesson10\additional" />
       <recent name="U:\Микита\Okten\JS\JS" />
       <recent name="U:\Микита\Okten\JS\JS\Lesson1" />
@@ -116,7 +124,19 @@
       <workItem from="1685364601879" duration="286000" />
       <workItem from="1685386146763" duration="28887000" />
       <workItem from="1685513320971" duration="4270000" />
-      <workItem from="1685598550600" duration="17670000" />
+      <workItem from="1685598550600" duration="18330000" />
+      <workItem from="1685697180331" duration="473000" />
+      <workItem from="1685722442150" duration="243000" />
+      <workItem from="1685782699441" duration="1584000" />
+      <workItem from="1685806614906" duration="18484000" />
+      <workItem from="1685857191901" duration="15345000" />
+      <workItem from="1685879326785" duration="4752000" />
+      <workItem from="1685891902293" duration="285000" />
+      <workItem from="1685892208840" duration="1133000" />
+      <workItem from="1685975694266" duration="2745000" />
+      <workItem from="1686033807450" duration="16047000" />
+      <workItem from="1686119272169" duration="18935000" />
+      <workItem from="1686166474481" duration="21936000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -230,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685514951374</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1685620706353</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685620706353</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

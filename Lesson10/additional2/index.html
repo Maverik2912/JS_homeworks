@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Additional 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .menu{
+            display: inline-block;
+        }
+        .title{
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10px;
+        transition: .5s;
+        cursor: pointer;
+    }
+        .title:hover{
+        background-color: lightgray;
+    }
+        li{
+            list-style-type: none;
+            text-align: center;
+            margin-top: 10px;
+            border: 1px solid gray;
+            border-right: none;
+            border-left: none;
+            padding: 5px;
+        }
+        .menu__body{
+            border: 1px solid gray;
+            border-bottom: none;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-50%);
+            transition: .5s;
+        }
+        .menu__body.active{
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        .hiddenComment{
+            display: none;
+        }
+        .wrap{
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .mask{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .infoField{
+            min-width: 300px;
+            background-color: #fff;
+            padding: 30px;
+        }
+        .form2{
+            margin-bottom: 20px;
+        }
+        .selected{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<form name="form1">
+    <div><input type="text" name="message"></div>
+    <div>
+        <button>Check</button>
+    </div>
+</form>
+
+<div class="menu">
+    <h2 class="title">&#8595; Open menu</h2>
+    <ul class="menu__body">
+        <li id="lol">Пункт 1</li>
+        <li>Пункт 2</li>
+        <li>Пункт 3</li>
+        <li>Пункт 4</li>
+        <li>Пункт 5</li>
+    </ul>
+</div>
+
+<form name="form2" class="form2">
+    <label for="status"> Status 'false'
+    <input type="checkbox" name="status" id="status">
+    </label>
+
+    <label for="age"> Age > 29
+        <input type="checkbox" name="status" id="age">
+    </label>
+
+    <label for="city"> city = Kyiv
+    <input type="checkbox" name="status" id="city">
+</label>
+</form>
+
+<p id="selectedText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda debitis error et laudantium magni quae
+    quibusdam quisquam rem tempora!</p>
+<script src="script.js">
+
+</script>
+</body>
+</html>

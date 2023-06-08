@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User's Details</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #343434;
+            color: #d9d9d9;
+        }
+        h1{
+            text-align: center;
+            color: yellow;
+            margin: 50px 0 30px;
+            font-size: 50px;
+        }
+        h2{
+            text-align: center;
+            font-size: 25px;
+            margin: 40px;
+        }
+        .info{
+            max-width: 50%;
+            margin: 75px auto 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .info > p {
+            flex: 0 0 50%;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+
+    </style>
+</head>
+<body>
+<script>
+    // при кліку на посилання перехід на відповідну сторінку, на якій буде вся інформація про користувача (всі 15 полів)
+    // отримана через додатковий запит (https://jsonplaceholder.typicode.com/users/XXX   ХХХ - айді користувача)
+
+    const url = new URL(location.href);
+    const userId = url.searchParams.get('id');
+
+    const fetchUser = fetch(`http://jsonplaceholder.typicode.com/users/${userId}`)
+        .then(response => response.json());
+
+    function showUserDetails() {
+        fetchUser.then(user => {
+
+        const title = document.createElement('h1')
+        const userName = document.createElement('h2');
+        const infoBlock = document.createElement('div');
+        infoBlock.classList.add('info');
+
+        title.innerText = 'User\'s details'
+        userName.innerHTML = `${user.name} <i>"${user.username}"</i>`;
+
+        infoBlock.append(...fillInfoBlock(user));
+        document.body.append(title, userName, infoBlock);
+
+        })
+    }
+
+    function fillInfoBlock(user) {
+        const infoArr = [];
+
+        function handler(user) {
+            for (const prop in user) {
+                if(typeof user[prop] === 'object') {
+                    handler(user[prop]);
+                } else {
+                    const p = document.createElement('p');
+                    p.innerHTML = `<b>${prop}</b>: ${user[prop]}`;
+                    infoArr.push(p);
+                }
+            }
+        }
+        handler(user);
+        return infoArr
+    }
+
+    showUserDetails()
+</script>
+</body>
+</html>

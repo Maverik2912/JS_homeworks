@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fake Shop</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #3f3f3f;
+            color: white;
+            padding: 100px 0;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form{
+            width: 40%;
+            margin: 0 auto;
+        }
+        input{
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            background-color: #9a9a9a;
+        }
+        input::placeholder{
+            color: #e5e5e5;
+            font-weight: bold;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            background-color: #4a804a;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .8s;
+        }
+        button:hover{
+            background-color: red;
+        }
+        a{
+            text-align: center;
+            display: block;
+            margin: 20px auto;
+            font-size: 20px;
+            text-decoration: underline;
+            color: yellow;
+            cursor: pointer;
+        }
+        .error{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="title">Add product</h1>
+    <form name="shop">
+        <div><input type="text" name="title" placeholder="Enter title of product" ></div>
+        <div><input type="number" name="amount" placeholder="Enter amount of product" ></div>
+        <div><input type="number" name="price" placeholder="Enter price of product" ></div>
+        <div><input type="text" name="url" placeholder="Enter url to product" ></div>
+        <div><button>Save to cart</button></div>
+    </form>
+    <a href="list.html">Go to cart</a>
+</div>
+<script src="scriptShop.js"></script>
+</body>
+</html>

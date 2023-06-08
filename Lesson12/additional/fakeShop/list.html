@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <style>
+        .wrap{
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        button{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    const prods = JSON.parse(localStorage.getItem('products'));
+
+    for (const prod of prods) {
+        const prodWrap = document.createElement('div');
+        prodWrap.classList.add('wrap');
+        const prodTitle = document.createElement('h2');
+        const prodInfo = document.createElement('p');
+        const img = document.createElement('img');
+        const deleteProdBtn = document.createElement('button');
+
+        prodTitle.innerText = prod.title;
+        prodInfo.innerHTML = `Кількість: ${prod.amount}; Вартість: ${prod.price}UAH`;
+        deleteProdBtn.innerText = 'Видалити продукт';
+        deleteProdBtn.setAttribute('data-index', prods.indexOf(prod));
+        img.src = prod.url;
+        img.alt = prod.title;
+
+        deleteProdBtn.onclick = function(e) {
+            const index = e.target.dataset.index;
+            prods.splice(index, 1);
+            localStorage.setItem('products', JSON.stringify(prods));
+            e.target.parentElement.remove();
+        }
+
+        prodWrap.append(prodTitle, prodInfo, img, deleteProdBtn);
+        document.body.append(prodWrap);
+    }
+    const deleteAllBtn = document.createElement('button');
+    deleteAllBtn.innerText = 'Delete all products'
+    document.body.append(deleteAllBtn);
+
+    deleteAllBtn.onclick = function() {
+        localStorage.clear();
+        const wrapElems = document.getElementsByClassName('wrap');
+        while (wrapElems.length > 0) {
+            wrapElems[0].remove();
+        }
+    }
+</script>
+</body>
+</html>

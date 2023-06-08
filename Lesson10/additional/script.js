@@ -1,6 +1,6 @@
 // написати рекурсивну функцію, яка збирає всі назви класів з файлу rules.html в окремий масив. масив вивести в консоль
 const classes = [];
-function explorer(htmlElement) {
+function explorer3(htmlElement) {
     const classList = htmlElement.classList;
     const children = htmlElement.children;
 
