@@ -19,7 +19,7 @@ const fetchCurrentPost = async () => {
         removePreloader(preloader);
 
 
-        //Обробимо незадовільний статус відповіді від серверу
+        //Обробимо незадовільний статус відповіді від сервера
         handleWithWrongResponseStatus(postResponse);
 
         return postResponse.json();
@@ -36,7 +36,7 @@ const fetchComments = async () => {
     try {
         const commentsResponse = await fetch(urlForFetchingComments);
 
-        //Обробимо незадовільний статус відповіді від серверу
+        //Обробимо незадовільний статус відповіді від сервера
         handleWithWrongResponseStatus(commentsResponse)
 
         return commentsResponse.json();
@@ -108,7 +108,7 @@ const createSingleStr = str => {
 
 const handlingError = (error, title, elementForAppend, marginTop) => {
 
-    // Замість данних виводимо повідомлення про помилку
+    // Замість даних виводимо повідомлення про помилку
     const errorMsgContainer = document.createElement('div');
     const pageTitle = document.createElement('h1');
     const errorImg = document.createElement('img');
