@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson10/additional2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/additional2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/fakeShop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/additional/fakeShop/scriptShop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/additional/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson12/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/preloader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/css/users.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/html/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/html/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/images/to_main_page_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/js/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/js/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/js/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10/additional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/additional/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson10/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
     </list>
@@ -42,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -63,6 +68,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="U:\Микита\Okten\JS\JS\mini-project\js\functions" />
       <recent name="U:\Микита\Okten\JS\JS\Lesson12\additional\fakeShop" />
       <recent name="U:\Микита\Okten\JS\JS\Lesson10\additional" />
       <recent name="U:\Микита\Okten\JS\JS" />
@@ -136,7 +142,16 @@
       <workItem from="1685975694266" duration="2745000" />
       <workItem from="1686033807450" duration="16047000" />
       <workItem from="1686119272169" duration="18935000" />
-      <workItem from="1686166474481" duration="21936000" />
+      <workItem from="1686166474481" duration="22674000" />
+      <workItem from="1686248550314" duration="153000" />
+      <workItem from="1686393179703" duration="22443000" />
+      <workItem from="1686429450597" duration="2523000" />
+      <workItem from="1686461491135" duration="20767000" />
+      <workItem from="1686485546706" duration="391000" />
+      <workItem from="1686496220099" duration="262000" />
+      <workItem from="1686586144258" duration="32862000" />
+      <workItem from="1686671354617" duration="595000" />
+      <workItem from="1686743246446" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -257,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685620706353</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1686236808716</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686236808716</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +297,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Lesson 1&#10;- index.html&#10;- script.js" />
     <MESSAGE value="Add Lesson 2&#10;- index.html&#10;- script.js" />
     <MESSAGE value="Add Lesson 3: &#10;- index.html&#10;- script.js&#10;additional: &#10;- index.html&#10;- script.js&#10;- posts.html&#10;- posts.js&#10;- template.html&#10;- template.js" />

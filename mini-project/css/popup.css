@@ -1,0 +1,78 @@
+.popup{
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+.popup.active{
+    visibility: visible;
+    opacity: 1;
+}
+.popup__content{
+    position: relative;
+    min-width: 300px;
+    max-height: 100%;
+    padding: 30px 75px;
+    background-color: #fff;
+    color: black;
+    transform: perspective(600px) translateY(-100%) rotateX(45deg);
+    transition: .6s;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popup.active .popup__content{
+    transform: perspective(600px) translateY(0) rotateX(0);
+}
+.popup__title{
+    text-align-last: center;
+    font-size: 25px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.popup__content li {
+    margin-bottom: 10px;
+}
+.popup__close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.body-not-scroll{
+    overflow: hidden;
+}
+.about-post-btn {
+    display: block;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #208520 85%, rgba(255, 255, 0, 0.7));
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .4s;
+}
+
+.about-post-btn:hover{
+    opacity: 1;
+}
+.post-body{
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}

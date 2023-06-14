@@ -1,0 +1,49 @@
+@import "./reset.css";
+@import "./users.css";
+@import "./fonts.css";
+@import "./user-details.css";
+@import "./popup.css";
+@import "./post-details.css";
+@import "./preloader.css";
+
+
+.main-title{
+    color: rgba(255, 255, 0, 0.8);
+    font-size: 40px;
+    text-align: center;
+}
+.title-mb{
+    margin: 40px 0;
+}
+.to-main-page{
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #544fb2;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.to-main-page:hover{
+    transform: scale(1.1);
+}
+.error-message{
+    margin: 0 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 45px;
+}
+.error-img{
+    display: block;
+    width: 150px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+

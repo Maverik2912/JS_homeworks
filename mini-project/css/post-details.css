@@ -1,0 +1,26 @@
+.subtitle{
+    display: block;
+}
+.current-post-title{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.prop-block{
+    display: flex;
+    gap: 5px;
+}
+.comment{
+    margin-bottom: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    padding: 20px;
+}
+.comment__author{
+    margin-bottom: 25px;
+}
+.yellow{
+    color: yellow;
+}
+.comment__title{
+    margin-bottom: 5px;
+}
