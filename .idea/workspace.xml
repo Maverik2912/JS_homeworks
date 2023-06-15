@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5984abbd-ab69-496e-a254-f1abd093c3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mini-project/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/post-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/preloader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/user-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/css/users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/html/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/html/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/images/to_main_page_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/js/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/js/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/js/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/script.js" afterDir="false" />
@@ -151,7 +135,8 @@
       <workItem from="1686496220099" duration="262000" />
       <workItem from="1686586144258" duration="32862000" />
       <workItem from="1686671354617" duration="595000" />
-      <workItem from="1686743246446" duration="4095000" />
+      <workItem from="1686743246446" duration="4776000" />
+      <workItem from="1686819571933" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1&#10;- index.html&#10;- script.js">
       <created>1682964887285</created>
@@ -279,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686236808716</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1686747414733</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686747414733</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add Lesson 9: &#10;- index.html&#10;- script.js">
+      <created>1686747459578</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686747459578</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
