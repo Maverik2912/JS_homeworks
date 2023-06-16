@@ -8,7 +8,7 @@ const postsUrl = `https://jsonplaceholder.typicode.com/users/${userId}/posts`;
 const wrapper = document.body.getElementsByClassName('wrapper')[0];
 const preloader = document.getElementById('loader-wrapper');
 
-// Спочатку робимо запит на інформацію про юзера. Виведемо її, якщо від сервера прийде відповідь
+// Спочатку робимо запит на інформацію про користувача. Виведемо її, якщо від сервера прийде відповідь
 const fetchingUserDetails = async () => {
 
     try {
